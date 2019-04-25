@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zwl-shop-basics" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zwl-shop-basics/zwl-shop-basics-apollo-config-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zwl-shop-basics/zwl-shop-basics-codingapi-ZipKin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zwl-shop-basics/zwl-shop-basics-codingapi-lcn" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zwl-shop-basics/zwl-shop-basics-springcloud-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zwl-shop-basics/zwl-shop-basics-springcloud-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zwl-shop-basics/zwl-shop-basics-xuxueli-xxljob" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zwl-shop-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zwl-shop-portal" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zwl-shop-service-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zwl-shop-service-api-impl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zwl-shop-service-api-impl/zwl-shop-service-api-impl-item" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zwl-shop-service-api-impl/zwl-shop-service-api-impl-member" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zwl-shop-service-api-impl/zwl-shop-service-api-impl-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zwl-shop-service-api-impl/zwl-shop-service-api-impl-pay" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zwl-shop-service-api-impl/zwl-shop-service-api-impl-search" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zwl-shop-service-api-impl/zwl-shop-service-api-impl-spike" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zwl-shop-service-api-impl/zwl-shop-service-api-impl-sso" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zwl-shop-service-api-impl/zwl-shop-service-api-impl-weixin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zwl-shop-service-api/zwl-shop-service-api-item" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zwl-shop-service-api/zwl-shop-service-api-member" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zwl-shop-service-api/zwl-shop-service-api-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zwl-shop-service-api/zwl-shop-service-api-pay" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zwl-shop-service-api/zwl-shop-service-api-search" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zwl-shop-service-api/zwl-shop-service-api-spike" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zwl-shop-service-api/zwl-shop-service-api-sso" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zwl-shop-service-api/zwl-shop-service-api-weixin" charset="UTF-8" />
+  </component>
+</project>

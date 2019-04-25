@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="zwl-shop-basics-apollo-config-server" />
+        <module name="zwl-shop-basics-codingapi-lcn" />
+        <module name="zwl-shop-basics-codingapi-ZipKin" />
+        <module name="zwl-shop-basics-springcloud-eureka" />
+        <module name="zwl-shop-basics-springcloud-zuul" />
+        <module name="zwl-shop-basics-xuxueli-xxljob" />
+        <module name="zwl-shop-common" />
+        <module name="zwl-shop-portal" />
+        <module name="zwl-shop-service-api-impl-item" />
+        <module name="zwl-shop-service-api-impl-member" />
+        <module name="zwl-shop-service-api-impl-order" />
+        <module name="zwl-shop-service-api-impl-pay" />
+        <module name="zwl-shop-service-api-impl-search" />
+        <module name="zwl-shop-service-api-impl-spike" />
+        <module name="zwl-shop-service-api-impl-sso" />
+        <module name="zwl-shop-service-api-impl-weixin" />
+        <module name="zwl-shop-service-api-item" />
+        <module name="zwl-shop-service-api-member" />
+        <module name="zwl-shop-service-api-order" />
+        <module name="zwl-shop-service-api-pay" />
+        <module name="zwl-shop-service-api-search" />
+        <module name="zwl-shop-service-api-spike" />
+        <module name="zwl-shop-service-api-sso" />
+        <module name="zwl-shop-service-api-weixin" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
