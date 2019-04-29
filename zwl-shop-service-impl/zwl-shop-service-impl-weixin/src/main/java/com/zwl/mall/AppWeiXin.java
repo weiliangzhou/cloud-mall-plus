@@ -1,23 +1,24 @@
-package com.zwl.mall.eureka;
+package com.zwl.mall;
 
 import com.ctrip.framework.apollo.spring.annotation.EnableApolloConfig;
+import com.spring4all.swagger.EnableSwagger2Doc;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
  * @author 二师兄
- * @Title: App
+ * @Title: mall.AppWeixin
  * @ProjectName zwlshopparent
  * @Description: TODO
- * @date 2019/4/2518:24
+ * @date 2019/4/2610:45
  */
 @SpringBootApplication
-@EnableEurekaServer
+@EnableEurekaClient
+@EnableSwagger2Doc
 @EnableApolloConfig
-public class App {
+public class AppWeiXin {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
-        SpringApplication.run(App.class, args);
+        SpringApplication.run(AppWeiXin.class, args);
     }
 }

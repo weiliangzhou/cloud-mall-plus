@@ -1,0 +1,20 @@
+server:
+  port: 8300
+spring:
+  application:
+    name: zwl-mall-member
+  #由于该应用是注册中心，false：代表不向注册中心注册自己;true:代表注册自己
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1111/eureka/
+####swagger相关配置
+swagger:
+  base-package: com.zwl.mall.weixin.service
+  title: SpringCloud2.x构建微服务电商项目-会员服务接口
+  description: -- 基于SpringCloud2.x构建微服务电商项目
+  version: 1.1
+  terms-of-service-url: 1688.cr.cx
+  contact:
+    name: 二师兄
+    email: 382308664@qq.com

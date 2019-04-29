@@ -5,10 +5,10 @@
     <parent>
         <artifactId>zwl-shop-parent</artifactId>
         <groupId>com.zwl</groupId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0-RELEASE</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
+    <version>1.0-RELEASE</version>
     <artifactId>zwl-shop-service-api</artifactId>
     <packaging>pom</packaging>
     <modules>
@@ -21,6 +21,13 @@
         <module>zwl-shop-service-api-order</module>
         <module>zwl-shop-service-api-spike</module>
     </modules>
+    <dependencies>
+        <dependency>
+            <groupId>com.spring4all</groupId>
+            <artifactId>swagger-spring-boot-starter</artifactId>
+            <version>1.9.0.RELEASE</version>
+        </dependency>
+    </dependencies>
 
 
 </project>

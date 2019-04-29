@@ -8,17 +8,24 @@
         <version>1.0-RELEASE</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>zwl-shop-basics</artifactId>
+
+    <artifactId>zwl-shop-service-impl</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>zwl-shop-basics-springcloud-eureka</module>
-        <module>zwl-shop-basics-apollo-config-server</module>
-        <module>zwl-shop-basics-springcloud-zuul</module>
-        <module>zwl-shop-basics-xuxueli-xxljob</module>
-        <module>zwl-shop-basics-codingapi-lcn</module>
-        <module>zwl-shop-basics-codingapi-ZipKin</module>
+        <module>zwl-shop-service-impl-weixin</module>
+        <module>zwl-shop-service-impl-member</module>
+        <module>zwl-shop-service-impl-sso</module>
+        <module>zwl-shop-service-impl-item</module>
+        <module>zwl-shop-service-impl-search</module>
+        <module>zwl-shop-service-impl-pay</module>
+        <module>zwl-shop-service-impl-order</module>
+        <module>zwl-shop-service-impl-spike</module>
     </modules>
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>
         <!-- apollo 携程apollo配置中心框架 -->
         <dependency>
             <groupId>com.ctrip.framework.apollo</groupId>
@@ -31,5 +38,6 @@
             <version>20.0</version>
         </dependency>
     </dependencies>
+
 
 </project>

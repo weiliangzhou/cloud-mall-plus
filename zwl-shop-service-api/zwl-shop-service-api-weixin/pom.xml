@@ -5,11 +5,44 @@
     <parent>
         <artifactId>zwl-shop-service-api</artifactId>
         <groupId>com.zwl</groupId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0-RELEASE</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
     <artifactId>zwl-shop-service-api-weixin</artifactId>
+    <packaging>jar</packaging>
+    <version>1.0-RELEASE</version>
+    <!--注意限定版本一定为RELEASE,因为上传的对应仓库的存储类型为RELEASE -->
+    <!--指定仓库地址 -->
+    <distributionManagement>
+        <repository>
+            <!--此名称要和.m2/settings.xml中设置的ID一致 -->
+            <id>zwl</id>
+            <url>http://192.168.111.128:8081/repository/zwl-release/</url>
+        </repository>
+    </distributionManagement>
 
-
+    <build>
+        <plugins>
+            <!--发布代码Jar插件 -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-deploy-plugin</artifactId>
+                <version>2.7</version>
+            </plugin>
+            <!--发布源码插件 -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-source-plugin</artifactId>
+                <version>2.2.1</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 </project>
