@@ -1,4 +1,4 @@
-package com.zwl.mall.weixin.weixin.entity;
+package com.zwl.mall.weixin.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

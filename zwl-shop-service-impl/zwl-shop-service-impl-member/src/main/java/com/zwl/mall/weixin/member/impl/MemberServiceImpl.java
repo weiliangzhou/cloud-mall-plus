@@ -2,8 +2,8 @@ package com.zwl.mall.weixin.member.impl;
 
 import com.zwl.mall.common.core.base.BaseResponse;
 import com.zwl.mall.weixin.member.fegin.WxServiceFeign;
-import com.zwl.mall.weixin.member.service.MemberService;
-import com.zwl.mall.weixin.weixin.entity.WxModel;
+import com.zwl.mall.member.service.MemberService;
+import com.zwl.mall.weixin.entity.WxModel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RestController;
 

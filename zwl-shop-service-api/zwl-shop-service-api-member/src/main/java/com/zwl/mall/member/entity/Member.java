@@ -1,4 +1,4 @@
-package com.zwl.mall.weixin.member.entity;
+package com.zwl.mall.member.entity;
 
 /**
  * @author 二师兄

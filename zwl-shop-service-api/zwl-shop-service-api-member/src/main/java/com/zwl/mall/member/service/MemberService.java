@@ -1,7 +1,7 @@
-package com.zwl.mall.weixin.member.service;
+package com.zwl.mall.member.service;
 
 import com.zwl.mall.common.core.base.BaseResponse;
-import com.zwl.mall.weixin.weixin.entity.WxModel;
+import com.zwl.mall.weixin.entity.WxModel;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.GetMapping;

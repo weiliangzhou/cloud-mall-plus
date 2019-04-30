@@ -2,7 +2,7 @@ package com.zwl.mall.weixin.service.impl;
 
 import com.zwl.mall.common.core.base.BaseApiService;
 import com.zwl.mall.common.core.base.BaseResponse;
-import com.zwl.mall.weixin.weixin.entity.WxModel;
+import com.zwl.mall.weixin.entity.WxModel;
 import com.zwl.mall.weixin.service.WxService;
 import org.springframework.web.bind.annotation.RestController;
 
