@@ -12,7 +12,7 @@
         <module name="zwl-shop-basics-springcloud-eureka" />
         <module name="zwl-shop-basics-springcloud-zuul" />
         <module name="zwl-shop-basics-xuxueli-xxljob" />
-        <module name="zwl-shop-common" />
+        <module name="zwl-shop-common-core" />
         <module name="zwl-shop-portal" />
         <module name="zwl-shop-service-api-item" />
         <module name="zwl-shop-service-api-member" />
@@ -22,6 +22,7 @@
         <module name="zwl-shop-service-api-spike" />
         <module name="zwl-shop-service-api-sso" />
         <module name="zwl-shop-service-api-weixin" />
+        <module name="zwl-shop-service-api-weixin-entity" />
         <module name="zwl-shop-service-impl-item" />
         <module name="zwl-shop-service-impl-member" />
         <module name="zwl-shop-service-impl-order" />

@@ -5,7 +5,7 @@
     <parent>
         <artifactId>zwl-shop-service-impl</artifactId>
         <groupId>com.zwl</groupId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0-RELEASE</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>zwl-shop-service-impl-member</artifactId>
@@ -14,7 +14,13 @@
         <dependency>
             <groupId>com.zwl</groupId>
             <artifactId>zwl-shop-service-api-member</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.0-RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>com.zwl</groupId>
+            <artifactId>zwl-shop-service-api-weixin</artifactId>
+            <version>1.0-RELEASE</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 

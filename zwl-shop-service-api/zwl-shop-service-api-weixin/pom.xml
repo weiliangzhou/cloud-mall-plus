@@ -8,9 +8,17 @@
         <version>1.0-RELEASE</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
+    <groupId>com.zwl</groupId>
     <artifactId>zwl-shop-service-api-weixin</artifactId>
     <packaging>jar</packaging>
     <version>1.0-RELEASE</version>
+    <dependencies>
+        <dependency>
+            <groupId>com.zwl</groupId>
+            <artifactId>zwl-shop-common-core</artifactId>
+            <version>1.0-RELEASE</version>
+        </dependency>
+    </dependencies>
     <!--注意限定版本一定为RELEASE,因为上传的对应仓库的存储类型为RELEASE -->
     <!--指定仓库地址 -->
     <distributionManagement>

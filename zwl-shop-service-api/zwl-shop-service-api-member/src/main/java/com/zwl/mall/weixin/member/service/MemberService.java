@@ -1,4 +1,4 @@
-package com.zwl.mall.weixin.service;
+package com.zwl.mall.weixin.member.service;
 
 import com.zwl.mall.common.core.base.BaseResponse;
 import com.zwl.mall.weixin.weixin.entity.WxModel;
@@ -12,14 +12,14 @@ import org.springframework.web.bind.annotation.GetMapping;
  * @Description: TODO
  * @date 2019/4/269:48
  */
-@Api(tags = "微信服务接口")
-public interface WxService {
+@Api(tags = "会员服务接口")
+public interface MemberService {
     /**
-     * 获取微信信息
+     * 获取用户信息
      *
      * @return
      */
-    @ApiOperation(value = "获取微信用户信息")
-    @GetMapping("/getWxModel")
-    BaseResponse<WxModel> getWxModel();
+    @ApiOperation(value = "获取会员信息")
+    @GetMapping("/getMemberInfo")
+    BaseResponse<WxModel> getMemberInfo();
 }

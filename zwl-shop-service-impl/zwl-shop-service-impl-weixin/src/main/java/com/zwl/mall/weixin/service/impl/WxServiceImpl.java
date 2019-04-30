@@ -1,6 +1,8 @@
 package com.zwl.mall.weixin.service.impl;
 
-import com.zwl.mall.weixin.entity.WxModel;
+import com.zwl.mall.common.core.base.BaseApiService;
+import com.zwl.mall.common.core.base.BaseResponse;
+import com.zwl.mall.weixin.weixin.entity.WxModel;
 import com.zwl.mall.weixin.service.WxService;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -12,9 +14,9 @@ import org.springframework.web.bind.annotation.RestController;
  * @date 2019/4/269:53
  */
 @RestController
-public class WxServiceImpl implements WxService {
+public class WxServiceImpl extends BaseApiService implements WxService {
     @Override
-    public WxModel getWxModel() {
-        return new WxModel("123", "二师兄");
+    public BaseResponse<WxModel> getWxModel() {
+        return setResultError("系统错误!");
     }
 }

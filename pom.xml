@@ -14,6 +14,7 @@
         <module>zwl-shop-service-impl</module>
         <module>zwl-shop-common</module>
         <module>zwl-shop-portal</module>
+        <module>zwl-shop-service-api-entitys</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
