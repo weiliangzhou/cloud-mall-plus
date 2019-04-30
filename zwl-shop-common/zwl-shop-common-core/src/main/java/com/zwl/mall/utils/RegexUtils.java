@@ -1,4 +1,4 @@
-package com.zwl.mall.common.utils;
+package com.zwl.mall.utils;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

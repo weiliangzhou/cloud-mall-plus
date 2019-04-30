@@ -1,6 +1,6 @@
 package com.zwl.mall.weixin.service;
 
-import com.zwl.mall.common.core.base.BaseResponse;
+import com.zwl.mall.base.BaseResponse;
 import com.zwl.mall.weixin.entity.WxModel;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

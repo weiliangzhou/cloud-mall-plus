@@ -1,6 +1,6 @@
 package com.zwl.mall.weixin.member.impl;
 
-import com.zwl.mall.common.core.base.BaseResponse;
+import com.zwl.mall.base.BaseResponse;
 import com.zwl.mall.weixin.member.fegin.WxServiceFeign;
 import com.zwl.mall.member.service.MemberService;
 import com.zwl.mall.weixin.entity.WxModel;

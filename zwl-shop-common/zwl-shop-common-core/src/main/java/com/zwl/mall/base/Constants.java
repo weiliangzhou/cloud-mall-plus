@@ -1,4 +1,4 @@
-package com.zwl.mall.common.core.base;
+package com.zwl.mall.base;
 
 /**
  * @author 二师兄

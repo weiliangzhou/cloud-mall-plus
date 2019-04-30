@@ -1,6 +1,8 @@
 package com.zwl.mall.weixin.handler;
 
-import com.zwl.mall.common.utils.RegexUtils;
+import com.zwl.mall.base.Constants;
+import com.zwl.mall.utils.RedisUtil;
+import com.zwl.mall.utils.RegexUtils;
 import com.zwl.mall.weixin.builder.TextBuilder;
 import me.chanjar.weixin.common.error.WxErrorException;
 import me.chanjar.weixin.common.session.WxSessionManager;
@@ -8,6 +10,7 @@ import me.chanjar.weixin.mp.api.WxMpService;
 import me.chanjar.weixin.mp.bean.message.WxMpXmlMessage;
 import me.chanjar.weixin.mp.bean.message.WxMpXmlOutMessage;
 import org.apache.commons.lang3.StringUtils;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
@@ -26,6 +29,8 @@ public class MsgHandler extends AbstractHandler {
     // 默认用户发送验证码提示
     @Value("${zwl.weixin.default.registration.code.message}")
     private String defaultRegistrationCodeMessage;
+    @Autowired
+    private RedisUtil redisUtil;
 
     @Override
     public WxMpXmlOutMessage handle(WxMpXmlMessage wxMessage,
@@ -55,6 +60,8 @@ public class MsgHandler extends AbstractHandler {
             // 如果发送消息为手机号码类型,则发送短信验证码
             int registerCode = registCode();
             String retContext = registrationCodeMessage.replaceAll("registrationCodeMessage", registerCode + "");
+            // 将注册码存入redis
+            redisUtil.setString(Constants.WEIXINCODE_KEY + fromMsg, registerCode + "", Constants.WEIXINCODE_TIMEOUT);
             return new TextBuilder().build(retContext, wxMessage, weixinService);
 
         }

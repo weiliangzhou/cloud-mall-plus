@@ -1,4 +1,4 @@
-package com.zwl.mall.common.utils;
+package com.zwl.mall.utils;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;

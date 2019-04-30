@@ -1,4 +1,4 @@
-package com.zwl.mall.common.core.base;
+package com.zwl.mall.base;
 
 import lombok.Data;
 import org.springframework.stereotype.Component;
